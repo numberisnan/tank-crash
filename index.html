@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Tank Crash</title>
+		<link rel="shortcut icon" href="Icons/tank.ico" type="image/x-icon">
+		<link rel="icon" href="Icons/tank.ico" type="image/x-icon">
+		<link rel="stylesheet" href="page.css" type="text/css">
+		<meta charset="utf-8">
+		<script src="Scripts/audioFunctions.js"></script>
+		<script src="Scripts/arrayFunctions.js"></script>
+		<style class="scorestyle"></style>
+	</head>
+	<body>
+		<audio id="es">
+			<source src="Audio/explosion.mp3">
+		</audio>
+		
+		<audio id="tn1">
+			<source src="Audio/TANKNOISE1.mp3">
+		</audio>
+		
+		<audio id="tn2">
+			<source src="Audio/TANKNOISE2.mp3">
+		</audio>
+		
+		<audio id="background">
+			<source src="Audio/background.mp3">
+		</audio>
+		
+		<div class="loadingScreen">
+			<div class="loadingFrame">
+				<p class="loadingMessage">Loading</p>
+				<img class="loadingIcon" src="Graphics/redtank.png">
+			</div>
+			<script src="Scripts/loading.js"></script>
+		</div>
+		
+		<div class="bestwith">
+			Works best with <img src="Graphics/chrome.png">
+		</div>
+		
+		<div id="gameFrame"></div>
+		
+		<div id="score">
+			<p id="p1"></p>:<p id="p2"></p>
+		</div>
+		
+		<div class="boostFrame1 boostFrame">
+			<div class="loadingBar"></div>
+		</div>
+		<div class="boostFrame2 boostFrame">
+			<div class="loadingBar"></div>
+		</div>
+		
+		<script src="Scripts/animations.js"></script>
+		<script src="Scripts/gamepad.js"></script>
+		<script src="Scripts/page.js"></script>
+		<script src="Scripts/maps.js"></script>
+		
+		<footer>
+			Made by Faraz Malik
+		</footer>
+	</body>
+</html>
