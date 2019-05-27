@@ -4,7 +4,7 @@
 You have an army of tanks, but you're all out of shells. 
 Guess there's only one thing left to do!
 
-Link to game demo: tankgame.farazmalik.me
+[Link to game demo](https://tankgame.farazmalik.me)
 
 -------------------------------------------------------
 INSTRUCTIONS:
